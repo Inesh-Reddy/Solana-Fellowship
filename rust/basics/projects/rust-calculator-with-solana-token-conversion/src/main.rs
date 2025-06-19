@@ -1,5 +1,5 @@
 mod operations;
-use std::{ io };
+use std::{io};
 use operations::{addition, subtraction, multiplication, division};
 fn main() {
     println!("Solana Calculator");
