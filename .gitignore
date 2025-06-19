@@ -100,3 +100,8 @@ lcov-report/
 *.local.sh
 *.local.env
 
+
+
+# Added by cargo
+
+/target

@@ -1,0 +1,11 @@
+[package]
+name = "solana-fellowship"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+members = [
+    "rust/basics/core-concepts", "rust/basics/projects/rust-based-solana-wallet-analyzer", "rust/basics/projects/rust-calculator-with-solana-token-conversion",
+]
+
+[dependencies]
