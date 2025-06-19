@@ -1,0 +1,89 @@
+# ─── Rust & Anchor ─────────────────────────────
+/target/
+**/*.rs.bk
+**/*.dSYM/
+*.log
+*.so
+Cargo.lock.bk
+
+# Anchor-specific
+.anchor/
+programs/**/target/
+tests/**/target/
+
+# Crate-specific (in /crates, /libs, etc.)
+crates/**/target/
+
+# ─── Node.js / Next.js Frontend ────────────────
+node_modules/
+.next/
+out/
+dist/
+build/
+.tmp/
+.cache/
+
+# Lock files (choose depending on package manager)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Env files
+.env
+.env.*.local
+
+# ─── Turborepo ────────────────────────────────
+.turbo/
+turbo.json
+
+# ─── MacOS system files ───────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# ─── Editors / IDEs ───────────────────────────
+# VSCode
+.vscode/
+*.code-workspace
+
+# JetBrains (IntelliJ, WebStorm, CLion, etc.)
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# ─── Logs & Backups ───────────────────────────
+*.log
+*.log.*
+*.bak
+*.tmp
+*.swp
+*.swo
+*.orig
+
+# ─── Docker ────────────────────────────────────
+*.pid
+Dockerfile.local
+docker-compose.override.yml
+
+# ─── Testing / Coverage ───────────────────────
+coverage/
+lcov-report/
+.nyc_output/
+
+# ─── Optional: Databases, Dumps ───────────────
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bin
+
+# ─── Optional: Git hooks or local scripts ─────
+.husky/
+*.local.sh
+*.local.env
+
