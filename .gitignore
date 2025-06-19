@@ -6,6 +6,19 @@
 *.so
 Cargo.lock.bk
 
+# Rust build artifacts
+/target/
+/debug/
+/Cargo.lock
+
+# VSCode or JetBrains IDEs
+.vscode/
+.idea/
+
+# macOS system files
+.DS_Store
+
+
 # Anchor-specific
 .anchor/
 programs/**/target/
