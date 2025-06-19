@@ -1,0 +1,1 @@
+// Write a function fib that finds teh fibbonacci of a number it takes as input 

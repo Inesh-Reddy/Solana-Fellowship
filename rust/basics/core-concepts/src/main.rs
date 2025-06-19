@@ -1,4 +1,5 @@
 mod is_even;
+mod fib;
 
 fn main() {
     println!("Hello, world!");
