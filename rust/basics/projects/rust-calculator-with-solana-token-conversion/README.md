@@ -8,9 +8,14 @@ This project will help you strengthen your understanding of Rust fundamentals wh
 ---
 
 ## Example :
-Enter operation (add/sub/mul/div): add
-Enter first number: 5.0
-Enter second number: 3.0
-Result: 8.0
-Equivalent in SOL: 0.08 SOL
-Do another calculation? (yes/no): yes
+    Enter operation (add/sub/mul/div): add
+
+    Enter first number: 5.0
+
+    Enter second number: 3.0
+
+    Result: 8.0
+
+    Equivalent in SOL: 0.08 SOL
+    
+    Do another calculation? (yes/no): yes
