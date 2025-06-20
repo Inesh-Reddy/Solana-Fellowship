@@ -21,7 +21,7 @@ fn main() {
     let b: f64 = b.trim().parse().unwrap();
     let op = op.trim();
 
-    let mut ans: f64 = 0.0;
+    let ans: f64;
 
     if op == "add" {
         ans = addition(a, b);
@@ -38,4 +38,6 @@ fn main() {
     } else {
         println!("Please enter a valid input");
     }
+
+
 }
