@@ -2,7 +2,7 @@
 
 pub struct Rect {
     pub width: i32,
-    pub height: i32
+    pub height: i32,
 }
 
 impl Rect {
@@ -18,5 +18,3 @@ impl Rect {
         return String::from("Hello : line1");
     }
 }
-
-

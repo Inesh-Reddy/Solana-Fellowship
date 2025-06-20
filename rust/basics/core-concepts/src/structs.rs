@@ -1,4 +1,3 @@
-
 #[derive(Debug)]
 #[allow(dead_code)]
 pub struct User {
@@ -8,14 +7,12 @@ pub struct User {
     age: i32,
 }
 
-
-pub fn user_details() -> User{
+pub fn user_details() -> User {
     let user = User {
         first_name: String::from("Harkirath"),
         last_name: String::from("Singh"),
         email: String::from("hello123@gmail.com"),
-        age:32
+        age: 32,
     };
     return user;
-
 }
