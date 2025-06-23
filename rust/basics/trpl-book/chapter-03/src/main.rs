@@ -1,6 +1,7 @@
-use crate::variablesmutability::{mutability, reference, shadowing, variables};
+use crate::{datatypes::arrays, variablesmutability::{mutability, reference, shadowing, variables}};
 
 mod variablesmutability;
+mod datatypes;
 
 fn main() {
 
@@ -14,4 +15,7 @@ fn main() {
     mutability();
     println!("------- referencing -------");
     reference();
+
+
+    arrays();
 }
