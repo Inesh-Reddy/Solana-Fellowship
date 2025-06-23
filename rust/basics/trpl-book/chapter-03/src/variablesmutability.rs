@@ -31,7 +31,8 @@ pub fn shadowing( ) {
 
 
     //tricky one
-    let mut x: u32 = 1;
+    // let mut x: u32 = 1;
+    let x: u32 = 1;
     {
         let mut x = x;
         x += 2;
