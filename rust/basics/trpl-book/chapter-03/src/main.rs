@@ -9,19 +9,19 @@ fn main() {
 
     
     println!("Hello, world!");
-    // println!("------- variabels -------");
-    // variables();
-    // println!("------- shadowing -------");
-    // shadowing();
-    // println!("------- mutability -------");
-    // mutability();
-    // println!("------- referencing -------");
-    // reference();
+    println!("------- variabels -------");
+    variables();
+    println!("------- shadowing -------");
+    shadowing();
+    println!("------- mutability -------");
+    mutability();
+    println!("------- referencing -------");
+    reference();
     // arrays();
     println!("------- conditions -------");
-    // iffing();
-    // ifelseing();
-    // looping();
+    iffing();
+    ifelseing();
+    looping();
     let result  = nestedloopingwithlabels();
     println!("{result}");
 
