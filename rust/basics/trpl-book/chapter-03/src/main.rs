@@ -17,7 +17,7 @@ fn main() {
     mutability();
     println!("------- referencing -------");
     reference();
-    // arrays();
+    arrays();
     println!("------- conditions -------");
     iffing();
     ifelseing();
