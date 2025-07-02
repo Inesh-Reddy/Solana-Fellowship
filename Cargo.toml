@@ -5,7 +5,7 @@ edition = "2024"
 
 [workspace]
 members = [ 
-    "rust/basics/core-concepts", "rust/basics/projects/rust-based-solana-wallet-analyzer", "rust/basics/projects/rust-calculator-with-solana-token-conversion", "rust/basics/trpl-book/chapter-02", "rust/basics/trpl-book/chapter-03", "rust/basics/trpl-book/chapter-03/variables-mutability",
+    "rust/basics/core-concepts", "rust/basics/projects/rust-based-solana-wallet-analyzer", "rust/basics/projects/rust-calculator-with-solana-token-conversion", "rust/basics/trpl-book/chapter-02", "rust/basics/trpl-book/chapter-03",
 ]
 
 [dependencies]
