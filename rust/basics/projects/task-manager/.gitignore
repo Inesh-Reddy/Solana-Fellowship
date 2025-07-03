@@ -1,0 +1,23 @@
+
+---
+
+## 📄 `.gitignore`
+
+```gitignore
+# Ignore target directory (build output)
+target/
+
+# Ignore Cargo lock file if you're creating a library
+# (Keep this line if you're building a binary)
+# Cargo.lock
+
+# Ignore backups and temp files
+*.rs.bk
+*.swp
+
+# Ignore IDE settings
+.idea/
+.vscode/
+
+# MacOS system file
+.DS_Store
