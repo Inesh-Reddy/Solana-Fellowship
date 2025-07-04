@@ -6,8 +6,6 @@ mod state;
 fn main() {
     println!("Task - Manager");
     
-    
-
     'outer_loop :loop {
         loop{
             let mut input_string = String::new();
@@ -32,12 +30,12 @@ fn main() {
                 let result = adding(task_to_add);
                 io::stdout().write_all(result.as_bytes()).expect("Write failed");
                 break;
-            }else if input=="2" {
+            } else if input=="2" {
                 let result = viewing();
                 for i in 0..result.len() {
                     println!("Task {}: {} ", i+1,result[i]);
                 }
-            }else if input=="3" {
+            } else if input=="3" {
                 let result = viewing();
                 for i in 0..result.len() {
                     println!("Task {}: {} ", i+1,result[i]);
@@ -48,7 +46,7 @@ fn main() {
                 let item_to_modify = todo_no_to_modify.trim().parse::<i32>().unwrap();
                 let result = completing(item_to_modify as usize);
                 println!("{result}");
-            }else if input=="4" {
+            } else if input=="4" {
                 let result = viewing();
                 for i in 0..result.len() {
                     println!("Task {}: {} ", i+1,result[i]);
@@ -59,7 +57,7 @@ fn main() {
                 let item_to_delete = todo_no_to_delete.trim().parse::<i32>().unwrap();
                 let result = removing_tasks(item_to_delete as usize);
                 println!("{result}");
-            }else if input=="5" {
+            } else if input=="5" {
                 println!("Thank you please visit again!!");
                 break 'outer_loop ;
             } else {
