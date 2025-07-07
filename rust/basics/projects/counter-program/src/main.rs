@@ -8,10 +8,10 @@ fn main() {
     /*
     - Create a function called increment and decrement that reads from a file(a.bin), update the value of a counter value inside and rewrite it to the file .
 */
-    // create_file("a");
-    // let _ = read_file();
-    // let _test = increment();
-    // let _test2 = decrement();
+    create_file("a");
+    let _ = read_file();
+    let _test = increment();
+    let _test2 = decrement();
     let _destroy = deltecontent();
 
 }
