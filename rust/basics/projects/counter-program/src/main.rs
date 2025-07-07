@@ -70,7 +70,7 @@ fn decrement() -> io::Result<()>{
 
 fn deltecontent(){
     let path = "./counter-program/src/a.bin";
-    OpenOptions::new().write(true).truncate(true).open(path);
+    let _ = OpenOptions::new().write(true).truncate(true).open(path);
     println!("Cleared content form file.");
 }
 
